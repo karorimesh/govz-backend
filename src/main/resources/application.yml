@@ -7,7 +7,7 @@ server:
 
 google:
   ai:
-    api-key: ${GOOGLE_AI_API_KEY:AIzaSyAuN734XN-zd-oTlwK9CzQTFRS6NeyqEAM}
+    api-key: ${GOOGLE_AI_API_KEY:}
     model: ${GOOGLE_AI_MODEL:gemini-3.6-flash}
 
 error:
