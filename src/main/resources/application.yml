@@ -1,0 +1,19 @@
+spring:
+  application:
+    name: ripoti
+
+server:
+  port: ${PORT:8080}
+
+google:
+  ai:
+    api-key: ${GOOGLE_AI_API_KEY:AIzaSyAuN734XN-zd-oTlwK9CzQTFRS6NeyqEAM}
+    model: ${GOOGLE_AI_MODEL:gemini-3.6-flash}
+
+error:
+  handling:
+    http-status-in-json-response: true
+    exception-logging: NO_LOGGING
+    full-stacktrace-http-statuses: 5xx
+    log-levels:
+      5xx: ERROR
